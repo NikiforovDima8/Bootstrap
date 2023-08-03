@@ -12,8 +12,7 @@ header{
 }
 h1{
     color: var(--color2);
-    text-decoration: underline;
-    font-size: 120px;
+    font-size: 60px;
 }
 header,footer{
     /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#af74c1+24,eb499d+100 */
@@ -106,9 +105,24 @@ background-size:contain;
 }
 
 .line{
-    width: 350px;
+    width: 150px;
     height: 3px;
-    border: 5px solid aqua;
-    margin-bottom: 50px;
+    border: 3px solid aqua;
+    margin:15px auto 30px;
     border-radius: 50%;
+}
+.form{
+    background-color: wheat;
+}
+.form p{
+   padding: 50px;
+   border: 5px solid var(--color1);
+   font-size: 25px;
+   font-weight: 500;
+
+}
+
+.accordion-button:not(.collapsed){
+background-color: var(--color1);
+color: white;
 }
